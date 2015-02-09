@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
  * @ngdoc function
  * @name beerAppApp.controller:AboutCtrl
@@ -20,14 +20,13 @@ angular.module('beerAppApp').controller('MainCtrl', function ($scope) {
     };
     $scope.next = function() {
       $scope.data.selectedIndex = Math.min($scope.data.selectedIndex + 1, 2);
-      console.log(selectedIndex);
+    
     };
     $scope.previous = function() {
       $scope.data.selectedIndex = Math.max($scope.data.selectedIndex - 1, 0);
-      console.log(selectedIndex);
+    
     };
-})
-.controller('sort2', ['$scope', '$filter', '$http', function($scope, $filter, $http) {
+}).controller('sort2', ['$scope', '$filter', '$http', function($scope, $filter, $http) {
       $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -123,9 +122,7 @@ function unique(origArr) {
                           $log.debug('close RIGHT is done');
                         });
   };
-})
-
-.controller('beerCtrl', ['$scope', '$routeParams',
+}).controller('beerCtrl', ['$scope', '$routeParams',
   function($scope, $routeParams) {
 
         $scope.awesomeThings = [

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 /**
  * @ngdoc function
  * @name beerAppApp.controller:beerCtrl
@@ -7,8 +7,7 @@
  * Controller of the beerAppApp
  */
 
-angular.module('beerAppApp')
-.controller('beerCtrl', ['$scope', '$routeParams', '$http',
+angular.module('beerAppApp').controller('beerCtrl', ['$scope', '$routeParams', '$http',
   function($scope, $routeParams, $http) {
     $http.get('json/beers.json').success(function(data) {
       	angular.forEach(data, function(b) {

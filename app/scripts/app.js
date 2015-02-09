@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * @ngdoc overview
@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 
-angular.module('beerAppApp', [
+var beerApp = angular.module('beerAppApp', [
     'ngAnimate',
     'ngAria',
     'ngMessages',
@@ -17,8 +17,7 @@ angular.module('beerAppApp', [
     'ngResource',
     'ngSanitize',
     'ngTouch',
-    'ngMaterial'
-  ])
+    'ngMaterial'])
 
 .config(function ($routeProvider) {
   $routeProvider
@@ -37,8 +36,7 @@ angular.module('beerAppApp', [
     .otherwise({
       redirectTo: '/'
     });
-})
-.config(function($mdThemingProvider) {
+}).config(function($mdThemingProvider) {
 $mdThemingProvider.theme('default')
   .primaryColor('orange')
   .accentColor('grey');

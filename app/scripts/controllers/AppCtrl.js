@@ -1,7 +1,9 @@
 
-'use strict';
-angular.module('beerAppApp')
-.controller('AppCtrl', function($scope, $timeout, $mdSidenav, $log) {
+"use strict";
+
+
+
+angular.module('beerAppApp').controller('AppCtrl', function($scope, $timeout, $mdSidenav, $log) {
 
 $scope.awesomeThings = [
       'HTML5 Boilerplate',

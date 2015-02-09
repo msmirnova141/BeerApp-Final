@@ -162,6 +162,9 @@ module.exports = function (grunt) {
 
     // Automatically inject Bower components into the app
     wiredep: {
+       options: {
+         //cwd: '<%= yeoman.app %>'
+       },
       app: {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath:  /\.\.\//
@@ -208,31 +211,27 @@ module.exports = function (grunt) {
       }
     },
 
-    // The following *-min tasks will produce minified files in the dist folder
-    // By default, your `index.html`'s <!-- Usemin block --> will take care of
-    // minification. These next options are pre-configured if you do not wish
-    // to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/styles/main.css': [
-    //         '.tmp/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
-    // uglify: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.dist %>/scripts/scripts.js': [
-    //         '<%= yeoman.dist %>/scripts/scripts.js'
-    //       ]
-    //     }
-    //   }
-    // },
-    // concat: {
-    //   dist: {}
-    // },
+    cssmin: {
+      dist: {
+        files: {
+          '<%= yeoman.dist %>/styles/main.css': [
+            '.tmp/styles/{,*/}*.css'
+          ]
+        }
+      }
+    },
+    uglify: {
+      dist: {
+        files: {
+          '<%= yeoman.dist %>/scripts/scripts.js': [
+            '<%= yeoman.dist %>/scripts/scripts.js'
+          ]
+        }
+      }
+    },
+    concat: {
+      dist: {}
+    },
 
     imagemin: {
       dist: {
@@ -274,18 +273,30 @@ module.exports = function (grunt) {
       }
     },
 
-    // ng-annotate tries to make the code safe for minification automatically
-    // by using the Angular long form for dependency injection.
-    ngAnnotate: {
+    ngmin: {
       dist: {
         files: [{
           expand: true,
           cwd: '.tmp/concat/scripts',
-          src: ['*.js', '!oldieshim.js'],
+          src: '*.js',
           dest: '.tmp/concat/scripts'
         }]
       }
     },
+
+
+    // ng-annotate tries to make the code safe for minification automatically
+    // by using the Angular long form for dependency injection.
+    // ngAnnotate: {
+    //   dist: {
+    //     files: [{
+    //       expand: true,
+    //       cwd: '.tmp/concat/scripts',
+    //       src: ['*.js', '!oldieshim.js'],
+    //       dest: '.tmp/concat/scripts'
+    //     }]
+    //   }
+    // },
 
     // Replace Google CDN references
     cdnify: {
@@ -390,7 +401,7 @@ module.exports = function (grunt) {
     'concurrent:dist',
     'autoprefixer',
     'concat',
-    'ngAnnotate',
+    'ngmin',
     'copy:dist',
     'cdnify',
     'cssmin',
@@ -401,8 +412,8 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'newer:jshint',
-    'test',
+    // 'newer:jshint',
+    // 'test',
     'build'
   ]);
 };
