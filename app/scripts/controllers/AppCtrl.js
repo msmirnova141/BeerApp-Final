@@ -2,6 +2,12 @@
 'use strict';
 angular.module('beerAppApp')
 .controller('AppCtrl', function($scope, $timeout, $mdSidenav, $log) {
+
+$scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   $scope.toggleLeft = function() {
     $mdSidenav('left').toggle()
                       .then(function(){
@@ -15,6 +21,11 @@ angular.module('beerAppApp')
                         });
   };
 }).controller('LeftCtrl', function($scope, $timeout, $mdSidenav, $log) {
+      $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   $scope.close = function() {
     $mdSidenav('left').close()
                       .then(function(){
@@ -22,6 +33,11 @@ angular.module('beerAppApp')
                       });
   };
 }).controller('RightCtrl', function($scope, $timeout, $mdSidenav, $log) {
+      $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   $scope.close = function() {
     $mdSidenav('right').close()
                         .then(function(){

@@ -28,6 +28,11 @@ angular.module('beerAppApp').controller('MainCtrl', function ($scope) {
     };
 })
 .controller('sort2', ['$scope', '$filter', '$http', function($scope, $filter, $http) {
+      $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
     
 
     $scope.beers = [];
@@ -107,6 +112,11 @@ function unique(origArr) {
 
     
 }]).controller('RightCtrl', function($scope, $timeout, $mdSidenav, $log) {
+      $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   $scope.close = function() {
     $mdSidenav('right').close()
                         .then(function(){
@@ -117,6 +127,12 @@ function unique(origArr) {
 
 .controller('beerCtrl', ['$scope', '$routeParams',
   function($scope, $routeParams) {
+
+        $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
     $scope.beerId = $routeParams.beerId;
   }]);
 

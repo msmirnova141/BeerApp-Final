@@ -19,4 +19,10 @@ angular.module('beerAppApp')
         });
     });
 
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+
 }]);
