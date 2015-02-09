@@ -2,7 +2,7 @@
 
 	<div ng-controller="sort2">
 
-		<md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+		<md-sidenav class="md-sidenav-right md-whiteframe-z2 right" md-component-id="right">
         	<md-content ng-controller="RightCtrl" class="md-padding">
         		<div layout="column" class="container-fluid">
 		        	<form name="searchForm">
@@ -45,7 +45,7 @@
 									</div>
 
 									<div class="md-tile-right">
-										<md-button ng-click="addItem(beers.indexOf(b));">Fave</md-button>
+										<md-button ng-click="addItem(beers.indexOf(b));">Like</md-button>
 									</div>
 								</md-item-content>
 							</md-card>
@@ -76,7 +76,7 @@
 							</a>
 							</div>
 							<div class="md-tile-right">
-								<md-button ng-click="removeItem($index)">Unfave</md-button>
+								<md-button ng-click="removeItem($index)">Unlike</md-button>
 							</div>
 						</md-item-content>
 					</md-card>

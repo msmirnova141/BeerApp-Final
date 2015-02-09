@@ -176,9 +176,10 @@ module.exports = function (grunt) {
       dist: {
         src: [
           '<%= yeoman.dist %>/scripts/{,*/}*.js',
-          '<%= yeoman.dist %>/styles/{,*/}*.css',
+          '<%= yeoman.dist %>/styles/{,*/}*.{css,min.css}',
           '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-          '<%= yeoman.dist %>/styles/fonts/*'
+          '<%= yeoman.dist %>/styles/fonts/*',
+        '<%= yeoman.dist %>/json/{,*/}*.json'
         ]
       }
     },
@@ -208,6 +209,7 @@ module.exports = function (grunt) {
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
         assetsDirs: ['<%= yeoman.dist %>','<%= yeoman.dist %>/images']
+
       }
     },
 
@@ -273,6 +275,7 @@ module.exports = function (grunt) {
       }
     },
 
+    
     ngmin: {
       dist: {
         files: [{
@@ -304,6 +307,14 @@ module.exports = function (grunt) {
         html: ['<%= yeoman.dist %>/*.html']
       }
     },
+
+    copyFonts: {
+expand: true,
+flatten: true,
+dest: '<%= yeoman.dist %>/fonts',
+src: ['bower_components/components-font-awesome/fonts.', 'bower_components/typicons/src/fonts.'],
+filter: 'isFile'
+},
 
     // Copies remaining files to places other tasks can use
     copy: {

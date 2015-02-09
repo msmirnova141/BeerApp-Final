@@ -1,0 +1,193 @@
+ [
+   {
+      "id": "WestCoast",
+      "name":"33 ACRES OF OCEAN", 
+      "info": "West Coast Pale ale", 
+      "type":"Pale ale", 
+      "brewery":"33 Acres Brewing Company", 
+      "status":"41", 
+      "region":"Vancouver, BC",
+      "info":"This is a full flavoured beer integrated with a distinct floral hop which gives it a quality unique to our Pacific Northwest surroundings. This style is evolutionary from a typical IPA with an assertive hop, lower alcohol content, and slight pine aroma. Low in malt character, this beer has a refined quality and a refreshing temperament."
+   },
+   {
+      "id": "SmoothCriminal",
+      "name":"SMOOTH CRIMINAL",
+      "info": "Dry Irish Stout", 
+      "type":"Stout", 
+      "brewery":"Deep Cove Brewers + Distillers", 
+      "status":"92", 
+      "region":"North Vancouver, BC",
+      "info":"Begins with a rich roasted malt and light espresso aroma followed by milk chocolate and sweet malt character."
+   },
+   {
+      "id": "LightsOut",
+      "name":"LIGHTS OUT STOUT", 
+      "type":"Stout", 
+      "brewery":"Worthy Brewing Company", 
+      "status":"66", 
+      "region":"Bend, Oregon",
+      "info":"A smooth, creamy, sinfully delicious stout that will satisfy your chocolate and coffee craving."
+   },
+   {
+      "id": "N2Series",
+      "name":"N2 SERIES MILK STOUT", 
+      "type":"Stout", 
+      "brewery":"Parallel 49 Brewing Company", 
+      "status":"23", 
+      "region":"East Vancouver, BC",
+      "info":"The first in Parallel's N2 Series, a series that pays tribute to all things nitro. This beer is brewed as a smooth tasting stout and sweetened using milk sugar (lactose)."
+   },
+   {
+      "id": "NitroOatmeal",
+      "name":"NITRO OATMEAL STOUT", 
+      "type":"Stout", 
+      "brewery":"Central City Brewers + Distillers", 
+      "status":"65", 
+      "region":"Surrey, BC",
+      "info":"The use of oatmeal in the mashtun adds a silkiness to the texture and body of this ale."
+   },
+   {
+      "id": "HouseCider",
+      "name":"HOUSE CIDER", 
+      "type":"Cider", 
+      "brewery":"Merridale Ciderworks", 
+      "status":"13", 
+      "region":"Cobble Hill, BC",
+      "info":"A lighter, sweeter version of a traditional cider, but still very dry."
+   },
+   {
+      "id": "Scrumpy",
+      "name":"SCRUMPY", 
+      "type":"Cider", 
+      "brewery":"Merridale Ciderworks", 
+      "status":"78", 
+      "region":"Cobble Hill, BC",
+      "info":"If you're a Scotch drinker, try this one. Scrumpy is strong and sharp, and rich in flavour of BC crab apples fermented without sugar. Once you acquire a taste for Scrumpy, nothing else will do! In old England, scrumpy was a cider made by farm workers who stole or ‘scrumped’ apples from the orchard. Served as a 310mL pour."
+   },
+   {
+      "id": "Traditional",
+      "name":"TRADITIONAL CIDER",
+      "type":"Cider", 
+      "brewery":"Merridale Ciderworks", 
+      "status":"59", 
+      "region":"Cobble Hill, BC",
+      "info":"Winner at Bath & West Show and at the International Cider and Perry Competition. Merridale cider is light, dry and effervescent. It appeals to true cider connoisseurs, and has been called “the best English-style cider in Canada” by wine expert Jurgen Gothe."
+   },
+   {
+      "id": "FilthyDirtyWestCoast",
+      "name":"FILTHY DIRTY WEST COAST", 
+      "type":"India Pale Ale", 
+      "brewery":"Parallel 49 Brewing Company", 
+      "status":"39", 
+      "region":"East Vancouver, BC",
+      "info":"A west coast IPA with a ton of hop flavour and aroma. Subtle sweet malt flavour backs up the huge amount of orange, grapefruit, pine and floral aromas this beer expels."
+   },
+   {
+      "id": "Schwarzbier",
+      "name":"33 ACRES OF DARKNESS SCHWARZBIER", 
+      "type":"Larger", 
+      "brewery":"33 Acres Brewing Company", 
+      "status":"99", 
+      "region":"Vancouver, BC",
+      "info":"A black lager with sweet cocoa aromas. And a dry finish that's loaded with bitter chocolate and black coffee flavours."
+   },
+   {
+      "id": "Hoparazzi",
+      "name":"HOPARAZZI", 
+      "type":"India Pale Ale", 
+      "brewery":"Parallel 49 Brewing Company", 
+      "status":"39", 
+      "region":"East Vancouver, BC",
+      "info":"Inspired by the West Coast IPAs, this pale gold lager is loaded with Pacific West Coast hops with a touch of crystal malt. This beer is fermented cool to keep the beer crisp and refreshing as well as dry-hopped to increase the citrusy hop aroma."
+   },
+   {
+      "id": "Pilsner",
+      "name":"PILSNER",
+      "type":"Larger", 
+      "brewery":"Bomber Brewing", 
+      "status":"74", 
+      "region":"East Vancouver, BC",
+      "info":"Imported Czech Saaz hops provide the floral aroma and finish to our refreshing and clean drinking lager."
+   },
+   {
+      "id": "SPCA",
+      "name":"SPCA",
+      "type":"Larger", 
+      "brewery":"R & B Brewing", 
+      "status":"92", 
+      "region":"Vancouver, BC",
+      "info":"Smoked malt and home smoked hops are used to give this light, crisp unfiltered wheat ale a hint of smokiness. Partial proceeds of all sales go back to the BC-SPCA!"
+   },
+   {
+      "id": "Nirvana",
+      "name":"33 ACRES OF NIRVANA", 
+      "type":"India Pale Ale", 
+      "brewery":"33 Acres Brewing Company", 
+      "status":"11", 
+      "region":"Vancouver, BC",
+      "info":"Most are very familiar with IPA styles by now. This one is higher in alcohol, which puts it on the lower side of a double IPA category. The IPA is a little darker, and the dominant hop character is grapefruit and orange."
+   },
+   {
+      "id": "FatTug",
+      "name":"FAT TUG IPA", 
+      "type":"India Pale Ale", 
+      "brewery":"Driftwood Brewery", 
+      "status":"90", 
+      "region":"Victoria, BC",
+      "info":"A northwest style India Pale Ale that is characterized by an intense hop profile of grapefruit & melon and restrained malt notes."
+   },
+   {
+      "id": "Immortal",
+      "name":"THE IMMORTAL IPA", 
+      "type":"India Pale Ale", 
+      "brewery":"Elysian Brewing", 
+      "status":"12", 
+      "region":"Seattle, Washington",
+      "info":"A Northwest interpretation of a classic English style, golden copper in color and loaded with New World hop flavor and aroma. Extremely drinkable."
+   },
+   {
+      "id": "IPA",
+      "name":"IPA", 
+      "type":"India Pale Ale", 
+      "brewery":"Red Racer Beer", 
+      "status":"24", 
+      "region":"Surrey, BC",
+      "info":"Hop, hops, and more hops! This ale has an intense aroma and a long lingering finish. A beer for the connoisseur, this is the Brewmasters choice."
+   },
+   {
+      "id": "HoperationTripelCross",
+      "name":"HOPERATION TRIPEL CROSS", 
+      "type":"India Pale Ale", 
+      "brewery":"Phillips Brewing", 
+      "status":"68", 
+      "region":"Victoria, BC",
+      "info":"This IPA slams hop first into a classic belgian yeast to create a super fortress of flavour."
+   },
+   {
+      "id": "Hopdemonium",
+      "name":"HOPDEMONIUM IPA", 
+      "type":"India Pale Ale", 
+      "brewery":"Powell Street Craft Brewery", 
+      "status":"10", 
+      "region":"Vancouver, BC",
+      "info":"This Pacific Northwest IPA is packed with so many hops it was hard to keep them all in the kettle. They have counterbalanced the intense floral, piney, and citrus hop profile with a strong malt base, giving this ale a wonderful golden colour."
+   },
+   {
+      "id": "Ale",
+      "name":"ALE", 
+      "type":"Pale ale", 
+      "brewery":"Red Truck Beer Co", 
+      "status":"85", 
+      "region":"North Vancouver, BC",
+      "info":"A blend of premium Belgian malts, plus German and Pacific Northwest hop varieties gives this luscious, copper-hued ale a wonderful complex aroma, a rich depth of flavour, and smooth drinkability."
+   },
+   {
+      "id": "ESB",
+      "name":"ESB", 
+      "type":"Pale ale", 
+      "brewery":"Bomber Brewing", 
+      "status":"61", 
+      "region":"East Vancouver, BC",
+      "info":"Honouring the classic British ESB, and celebrating the innovations of the Yakima Valley, this ESB seamlessly blends BC-grown barley and the crystal malts of Great Britain with North America's most aromatic hops."
+   }
+]

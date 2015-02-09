@@ -41,7 +41,6 @@
     "commit": "31ac8ddd77d0697ec0df15532acd34399a2874cc"
   },
   "_source": "git://github.com/stephenhutchings/typicons.font.git",
-  "_target": "~2.0.7",
-  "_originalSource": "typicons",
-  "_direct": true
+  "_target": "^2.0.7",
+  "_originalSource": "typicons"
 }

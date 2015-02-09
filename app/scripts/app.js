@@ -14,7 +14,6 @@ var beerApp = angular.module('beerAppApp', [
     'ngAria',
     'ngMessages',
     'ngRoute',
-    'ngResource',
     'ngSanitize',
     'ngTouch',
     'ngMaterial'])

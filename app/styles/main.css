@@ -172,6 +172,10 @@ md-sidenav {
  width: 150px;
  background-color: black;
 }
+md-sidenav.right {
+
+  background-color: white;
+}
 
 .buttondemoBasicUsage {
   /** From vulcanized demo **/ }
