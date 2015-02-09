@@ -45,7 +45,7 @@
 									</div>
 
 									<div class="md-tile-right">
-										<md-button ng-click="addItem(beers.indexOf(b));">Like</md-button>
+										<md-button ng-click="addItem(beers.indexOf(b));">Fave</md-button>
 									</div>
 								</md-item-content>
 							</md-card>
@@ -72,6 +72,7 @@
 							<a href="#/beer/{{f.id}}">
 								<h3><b>{{f.name}}</b></h3>
 								<h4><i>{{f.type}}</i></h4>
+
 							</a>
 							</div>
 							<div class="md-tile-right">
@@ -81,6 +82,7 @@
 					</md-card>
 				</md-item>
 			</md-list>
+			<h5 align='center' layout-align="space-around"><i>Your personal favorites ;)</i></h5>
 		</div>
     	</ng-switch>
 	</div>
